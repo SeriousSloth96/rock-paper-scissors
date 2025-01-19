@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    margin: auto;
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+    width: 80%;
+    height: 200px;
+    margin: 10%;
+    padding: 64px;
+    background-color: #484848;
+    font-size: 15px;
+    color: #efefef;
+    text-align: center;
+}
+
+#button-container{
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #252525;
+    width: 100px;
+    height: 50px;
+    border-radius: 32px;
+    border: 0;
+    color: #efefef;
+}
